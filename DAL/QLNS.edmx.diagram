@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="91c247ab5c124471a35ca1f794fb0e09" Name="Diagram1" ZoomLevel="94">
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_BAOHIEM" Width="1.5" PointX="5.25" PointY="22.25" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_BOPHAN" Width="1.5" PointX="0.75" PointY="43.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_CHAMCONG" Width="1.5" PointX="8.25" PointY="29" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_CHUCVU" Width="1.5" PointX="0.75" PointY="28" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_CONGTY" Width="1.5" PointX="0.75" PointY="33.5" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_DANTOC" Width="1.5" PointX="0.75" PointY="39" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_DIEUCHUYEN" Width="1.5" PointX="5.25" PointY="17.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_DONVI" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_HOPDONG" Width="1.5" PointX="5.25" PointY="32.375" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_KCCT" Width="1.5" PointX="5.25" PointY="51.25" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_KHENTHUONG_KYLUAT" Width="1.5" PointX="5.25" PointY="66.25" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_KYCONG" Width="1.5" PointX="5.25" PointY="38.25" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_LOAICA" Width="1.5" PointX="6" PointY="8.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_LOAICONG" Width="1.5" PointX="6" PointY="29.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_NANGLUONG" Width="1.5" PointX="5.25" PointY="43.25" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_NHANVIEN" Width="1.5" PointX="3" PointY="30.625" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_NHANVIEN_CHITIET" Width="1.5" PointX="5.25" PointY="12" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_NHANVIENPHUCAP" Width="1.5" PointX="8.25" PointY="33.375" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_PHONGBAN" Width="1.5" PointX="0.75" PointY="30.375" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_PHUCAP" Width="1.5" PointX="6" PointY="26.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_SYS_FUNC" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_SYS_GROUP" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_SYS_REPORT" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_SYS_RIGHT" Width="1.5" PointX="2.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_SYS_RIGHT_REPORT" Width="1.5" PointX="4.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_SYS_USER" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_TANGCA" Width="1.5" PointX="8.25" PointY="37.25" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_TEST" Width="1.5" PointX="6.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_THOIVIEC" Width="1.5" PointX="5.25" PointY="62" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_TONGIAO" Width="1.5" PointX="0.75" PointY="41.375" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_TRINHDO" Width="1.5" PointX="0.75" PointY="36.625" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.TB_UNGLUONG" Width="1.5" PointX="5.25" PointY="47.875" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_BAOHIEM_TB_NHANVIEN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_NHANVIEN_TB_BOPHAN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_CHAMCONG_TB_LOAICONG" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_CHAMCONG_TB_NHANVIEN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_NHANVIEN_TB_CHUCVU" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_HOPDONG_TB_CONGTY" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_NHANVIEN_TB_CONGTY" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_NHANVIEN_TB_DANTOC" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_DIEUCHUYEN_TB_NHANVIEN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_HOPDONG_TB_NHANVIEN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_KCCT_TB_NHANVIEN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_KHENTHUONG_KYLUAT_TB_NHANVIEN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_KYCONG_TB_NHANVIEN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_TANGCA_TB_LOAICA" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_NANGLUONG_TB_NHANVIEN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_NHANVIEN_CHITIET_TB_NHANVIEN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_NHANVIEN_TB_PHONGBAN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_NHANVIEN_TB_TONGIAO" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_NHANVIEN_TB_TRINHDO" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_NHANVIENPHUCAP_TB_NHANVIEN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_TANGCA_TB_NHANVIEN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_THOIVIEC_TB_NHANVIEN1" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_UNGLUONG_TB_NHANVIEN" />
+        <AssociationConnector Association="DB_QUANLYNHANSUModel.FK_TB_NHANVIENPHUCAP_TB_PHUCAP" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.USER_IN_GROUP" Width="1.5" PointX="0.75" PointY="8.75" />
+        <EntityTypeShape EntityType="DB_QUANLYNHANSUModel.USER_NOTIN_GROUP" Width="1.5" PointX="2.75" PointY="8.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

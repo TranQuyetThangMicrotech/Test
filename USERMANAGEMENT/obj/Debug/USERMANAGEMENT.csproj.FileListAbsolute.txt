@@ -1,0 +1,118 @@
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\USERMANAGEMENT.exe.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\USERMANAGEMENT.exe
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\USERMANAGEMENT.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.frmmain.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.exe
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.exe.licenses
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.frmquanlynguoidung.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Office.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Office.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\BLL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\BLL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\BLL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\DAL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.frmnguoidung.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.frmnhom.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.frmshowmember.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.frmshowgroup.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\USERMANAGEMENT.exe.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\USERMANAGEMENT.exe
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\USERMANAGEMENT.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\BLL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Office.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\BLL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\BLL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DAL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\bin\Debug\DevExpress.Office.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.frmmain.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.frmnguoidung.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.frmnhom.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.frmquanlynguoidung.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.frmshowgroup.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.frmshowmember.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.exe.licenses
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.exe
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\USERMANAGEMENT\obj\Debug\USERMANAGEMENT.pdb

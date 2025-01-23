@@ -1,0 +1,383 @@
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\QUANLYNHANVIEN.exe.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\QUANLYNHANVIEN.exe
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\QUANLYNHANVIEN.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\BLL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\BLL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\BLL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DAL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.exe.licenses
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.exe
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.MainForm.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Office.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Office.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu.Danhmucdungchung.frmdantoc.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmtongiao.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmphongban.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmtrinhdo.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmbophan.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmchucvu.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmcongty.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmnhanvien.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Charts.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.PivotGrid.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.RichEdit.v22.2.Export.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Utils.v22.2.UI.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraGauges.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraReports.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraRichEdit.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.DataAccess.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.DataVisualization.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.CodeParser.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Xpo.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.DataAccess.v22.2.UI.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraNavBar.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraPivotGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.Extensions.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Images.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraDiagram.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Diagram.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Charts.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.PivotGrid.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Utils.v22.2.UI.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraGauges.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraReports.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraRichEdit.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.DataAccess.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Xpo.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.DataAccess.v22.2.UI.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraNavBar.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraPivotGrid.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraDiagram.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.Diagram.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.Report.rptdanhsachnhanvien.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmhopdong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.Desktop.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.Desktop.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmkhenthuong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmkyluat.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmdieuchuyen.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmthoiviec.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmnangluong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.templatefrm.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._03_Loaica.frmloaica.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._03_Chamcong.frmloaicong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._03_Chamcong.frmbangcong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._03_Chamcong.frmbangcongchitiet.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.TreeMap.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeMap.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeMap.v22.2.UI.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.TreeMap.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeMap.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeMap.v22.2.UI.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.frmtest.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\QUANLYNHANVIEN.exe.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\QUANLYNHANVIEN.exe
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\QUANLYNHANVIEN.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\BLL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Charts.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Images.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Office.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.PivotGrid.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.RichEdit.v22.2.Export.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.TreeMap.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Utils.v22.2.UI.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraGauges.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraNavBar.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraReports.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraRichEdit.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeMap.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeMap.v22.2.UI.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.DataAccess.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.DataVisualization.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.CodeParser.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Xpo.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.DataAccess.v22.2.UI.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraPivotGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.Extensions.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.Desktop.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraDiagram.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Diagram.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\BLL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\BLL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DAL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Charts.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Office.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.PivotGrid.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.TreeMap.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Utils.v22.2.UI.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraGauges.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraNavBar.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraReports.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraRichEdit.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeMap.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeMap.v22.2.UI.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.DataAccess.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Xpo.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.DataAccess.v22.2.UI.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraPivotGrid.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.Desktop.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraDiagram.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Diagram.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmbophan.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmchucvu.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmcongty.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu.Danhmucdungchung.frmdantoc.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmnhanvien.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmphongban.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmtongiao.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmtrinhdo.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmdieuchuyen.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmhopdong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmkhenthuong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmkyluat.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmnangluong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmthoiviec.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._03_Chamcong.frmbangcong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._03_Chamcong.frmbangcongchitiet.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._03_Loaica.frmloaica.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._03_Chamcong.frmloaicong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.frmtest.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.MainForm.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.Report.rptdanhsachnhanvien.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.templatefrm.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.exe.licenses
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.exe
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmdonvi.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\QUANLYNHANVIEN.exe.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\QUANLYNHANVIEN.exe
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\QUANLYNHANVIEN.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\BLL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Charts.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Images.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Office.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.PivotGrid.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.RichEdit.v22.2.Export.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.TreeMap.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Utils.v22.2.UI.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraGauges.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraNavBar.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraReports.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraRichEdit.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeMap.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeMap.v22.2.UI.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.DataAccess.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.DataVisualization.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.CodeParser.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Xpo.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.DataAccess.v22.2.UI.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraPivotGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.Extensions.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.Desktop.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraDiagram.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Diagram.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\BLL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\BLL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DAL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Charts.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Office.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.PivotGrid.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.TreeMap.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Utils.v22.2.UI.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraGauges.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraNavBar.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraReports.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraRichEdit.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeMap.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraTreeMap.v22.2.UI.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.DataAccess.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Xpo.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.DataAccess.v22.2.UI.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraPivotGrid.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.Desktop.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.XtraDiagram.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\bin\Debug\DevExpress.Diagram.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmbophan.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmchucvu.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmcongty.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu.Danhmucdungchung.frmdantoc.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmdonvi.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmnhanvien.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmphongban.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmtongiao.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung.frmtrinhdo.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmdieuchuyen.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmhopdong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmkhenthuong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmkyluat.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmnangluong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._02_Nhansu._02_Nghiepvu.frmthoiviec.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._03_Chamcong.frmbangcong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._03_Chamcong.frmbangcongchitiet.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._03_Loaica.frmloaica.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN._03_Chamcong.frmloaicong.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.frmtest.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.MainForm.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.Report.rptdanhsachnhanvien.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.templatefrm.resources
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.exe.licenses
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.exe
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\QUANLYNHANVIEN\obj\Debug\QUANLYNHANVIEN.pdb

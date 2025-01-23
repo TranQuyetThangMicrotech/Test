@@ -1,0 +1,36 @@
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\DAL\bin\Debug\DAL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\DAL\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\DAL\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\DAL\obj\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\DAL\obj\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\DAL\bin\Debug\DAL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\DAL\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\DAL\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\DAL\obj\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\DAL\obj\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\DAL\bin\Debug\DAL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\DAL\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\DAL\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\DAL\obj\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,76 @@
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\bin\Debug\BLL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\bin\Debug\BLL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\bin\Debug\BLL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\bin\Debug\DAL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\obj\Debug\BLL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN\BLL\obj\Debug\BLL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\bin\Debug\BLL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\bin\Debug\BLL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\bin\Debug\BLL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\bin\Debug\DAL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\obj\Debug\BLL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy\BLL\obj\Debug\BLL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\BLL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\BLL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\BLL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DAL.dll.config
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\obj\Debug\BLL.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\obj\Debug\BLL.pdb
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Office.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+C:\Users\ADMIN\Desktop\Project\QUANLYNHANVIEN - Copy - Copy\BLL\bin\Debug\DevExpress.Office.v22.2.Core.xml

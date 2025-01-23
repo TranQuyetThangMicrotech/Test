@@ -92,10 +92,10 @@ namespace QUANLYNHANVIEN
             gcdanhsach.DataSource = _testclass.getlist(); // gắn danh sách cho gridcontrol
             gvdanhsach.OptionsBehavior.Editable = true; // Không cho phép sửa trên gridview
 
-            gvdanhsach.Columns["ID"].OptionsColumn.ReadOnly = true;
-            gvdanhsach.Columns["CHUCNANG"].OptionsColumn.ReadOnly = true;
-            gvdanhsach.Columns["NHOM"].OptionsColumn.ReadOnly = true;
-            gvdanhsach.Columns["XEM"].OptionsColumn.ReadOnly = true;
+            //gvdanhsach.Columns["ID"].OptionsColumn.ReadOnly = true;
+            //gvdanhsach.Columns["CHUCNANG"].OptionsColumn.ReadOnly = true;
+            //gvdanhsach.Columns["NHOM"].OptionsColumn.ReadOnly = true;
+            //gvdanhsach.Columns["XEM"].OptionsColumn.ReadOnly = true;
             //gvdanhsach.OptionsView.ShowGroupPanel = false;
 
 

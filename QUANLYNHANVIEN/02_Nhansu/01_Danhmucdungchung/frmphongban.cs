@@ -1,15 +1,9 @@
-﻿using DAL;
-using DevExpress.XtraEditors;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using BLL._00_Custom;
 using BLL._02_Nhansu._01_Danhmucdungchung;
+using DAL;
+using System;
+using System.Windows.Forms;
+
 namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
 {
     public partial class frmphongban : DevExpress.XtraEditors.XtraForm
@@ -20,31 +14,33 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         }
 
         #region Khai báo biến
-        PhongBan _phongbanclass;
-        bool _them;
-        int _id;
-        #endregion
 
+        private PhongBan _phongBan;
+        private bool _them;
+        private int _id;
+
+        #endregion Khai báo biến
 
         #region Function
 
-        void FC_Cleardata()
+        private void FC_Cleardata()
         {
-            txtTenPhongBan.Text= string.Empty;
+            txtTenPhongBan.Text = string.Empty;
         }
 
-        void FC_Showcontrols(bool on)
+        private void FC_Showcontrols(bool on)
         {
-            btnThem.Enabled= on;
-            btnSua  .Enabled= on;
-            btnXoa.Enabled= on;
-            btnDong.Enabled= on;
-            splitContainer1.Panel1Collapsed= on;
+            btnThem.Enabled = on;
+            btnSua.Enabled = on;
+            btnXoa.Enabled = on;
+            btnDong.Enabled = on;
+            splitContainer1.Panel1Collapsed = on;
 
-            btnLuu.Enabled= !on;
-            btnHuy.Enabled= !on;
+            btnLuu.Enabled = !on;
+            btnHuy.Enabled = !on;
         }
-        #endregion
+
+        #endregion Function
 
         private void frmphongban_Load(object sender, EventArgs e)
         {
@@ -53,45 +49,42 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             _them = false;
         }
 
-        void Loaddata()
+        private void Loaddata()
         {
-            _phongbanclass = new PhongBan();
-            gcdanhsach.DataSource = _phongbanclass.GetList();
-            gvdanhsach.OptionsBehavior.Editable= false;
+            _phongBan = new PhongBan();
+            gcdanhsach.DataSource = _phongBan.GetList();
+            gvdanhsach.OptionsBehavior.Editable = false;
         }
 
-        void Savedata()
+        private void Savedata()
         {
-            if(string.IsNullOrEmpty(txtTenPhongBan.Text))
-            {
-                MessageBox.Show("Bạn chưa nhập dữ liệu vào ô!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
+            TB_PHONGBAN data;
             if (_them)
             {
-                TB_PHONGBAN data = new TB_PHONGBAN();
-                data.TENPB= txtTenPhongBan.Text;
-                _phongbanclass.Add(data);
+                data = new TB_PHONGBAN();
+                data.TENPB = txtTenPhongBan.Text;
+                _phongBan.Add(data);
             }
             else
             {
-                var data = _phongbanclass.GetItem(_id);
+                data = _phongBan.GetItem(_id);
                 data.TENPB = txtTenPhongBan.Text;
-                _phongbanclass.Update(data);
+                _phongBan.Update(data);
             }
         }
 
         private void gvdanhsach_Click(object sender, EventArgs e)
         {
-            if(gvdanhsach.RowCount >0)
+            if (gvdanhsach.RowCount > 0)
             {
                 _id = int.Parse(gvdanhsach.GetFocusedRowCellValue("IDPB").ToString());
-                txtTenPhongBan.Text = gvdanhsach.GetFocusedRowCellValue("TENPB").ToString();
+                var item = _phongBan.GetItem(_id);
+                txtTenPhongBan.Text = item.TENPB;
             }
         }
 
         #region BTN
+
         private void btnthem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             FC_Showcontrols(false);
@@ -107,9 +100,9 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
 
         private void btnxoa_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if(MessageBox.Show("Bạn có chắc chắn muốn xóa không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)==DialogResult.Yes)
+            if (MessageBox.Show("Bạn có chắc chắn muốn xóa không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                _phongbanclass.Delete(_id);
+                _phongBan.Delete(_id);
                 Loaddata();
             }
         }
@@ -132,7 +125,12 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         {
             this.Close();
         }
-        #endregion
 
+        #endregion BTN
+
+        private void gvdanhsach_CustomDrawRowIndicator(object sender, DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventArgs e)
+        {
+            CustomGridView.Instance.CustomDrawIndicator(e);
+        }
     }
 }

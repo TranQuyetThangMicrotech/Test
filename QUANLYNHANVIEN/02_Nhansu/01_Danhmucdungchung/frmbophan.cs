@@ -15,15 +15,11 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
 
         #region Khai báo biến toàn cục
 
-        // Khai báo tạo 1 biến đại diện cho class
-        private BoPhan _bophanclass;
-
+        private BoPhan _boPhan;
         private bool _them;
         private int _id;
 
         #endregion Khai báo biến toàn cục
-
-        // Các hàm
 
         #region FUNCTION
 
@@ -42,7 +38,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             btnHuy.Enabled = !on;
             btnLuu.Enabled = !on;
 
-            splitContainer1.Panel1Collapsed = on; //Khi load form "true" sẽ thu gọn panel1
+            splitContainer1.Panel1Collapsed = on;
         }
 
         #endregion FUNCTION
@@ -57,31 +53,25 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
 
         private void Loaddata()
         {
-            _bophanclass = new BoPhan(); // khởi tạo class
-            gcdanhsach.DataSource = _bophanclass.GetList(); // gắn danh sách cho gridcontrol
-            gvdanhsach.OptionsBehavior.Editable = false; // Không cho phép sửa trên gridview
+            _boPhan = new BoPhan();
+            gcdanhsach.DataSource = _boPhan.GetList();
+            gvdanhsach.OptionsBehavior.Editable = false;
         }
 
         private void Savedata()
         {
-            //Kiểm tra xem ô nhập có trống không
-            if (string.IsNullOrWhiteSpace(txtTenBoPhan.Text))
-            {
-                MessageBox.Show("Bạn chưa nhập dữ liệu vào ô!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
+            TB_BOPHAN data;
             if (_them)
             {
-                TB_BOPHAN data = new TB_BOPHAN();
+                data = new TB_BOPHAN();
                 data.TENBP = txtTenBoPhan.Text;
-                _bophanclass.Add(data);
+                _boPhan.Add(data);
             }
             else
             {
-                var data = _bophanclass.GetItem(_id);
+                data = _boPhan.GetItem(_id);
                 data.TENBP = txtTenBoPhan.Text;
-                _bophanclass.Update(data);
+                _boPhan.Update(data);
             }
         }
 
@@ -89,8 +79,9 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         {
             if (gvdanhsach.RowCount > 0)
             {
-                _id = int.Parse(gvdanhsach.GetFocusedRowCellValue("IDBP").ToString()); // Lấy giá trị tại cột có tên là "IDDT" chuyển đổi giá trị thành kiểu int
-                txtTenBoPhan.Text = gvdanhsach.GetFocusedRowCellValue("TENBP").ToString(); // Lấy giá trị cột "TENDT" và chuyển thành chuỗi gán cho textedit
+                _id = int.Parse(gvdanhsach.GetFocusedRowCellValue("IDBP").ToString());
+                var item = _boPhan.GetItem(_id);
+                txtTenBoPhan.Text = item.TENBP;
             }
         }
 
@@ -100,6 +91,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         {
             FC_Showcontrols(false);
             FC_Cleardata();
+            gcdanhsach.Enabled = false;
             _them = true;
         }
 
@@ -113,7 +105,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         {
             if (MessageBox.Show("Bạn có chắc chắn xóa không", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                _bophanclass.Delete(_id);
+                _boPhan.Delete(_id);
                 Loaddata();
             }
         }
@@ -121,7 +113,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         private void btnluu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             FC_Showcontrols(true);
-            //FC_Showgridview(true);
+            gcdanhsach.Enabled = true;
             Savedata();
             Loaddata();
             _them = false;
@@ -130,7 +122,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         private void btnhuy_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             FC_Showcontrols(true);
-            //FC_Showgridview(true);
+            gcdanhsach.Enabled = true;
             _them = false;
         }
 
@@ -145,5 +137,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         {
             CustomGridView.Instance.CustomDrawIndicator(e);
         }
+
+       
     }
 }

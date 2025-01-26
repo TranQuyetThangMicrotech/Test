@@ -1,14 +1,7 @@
-﻿using BLL._02_Nhansu._01_Danhmucdungchung;
+﻿using BLL._00_Custom;
+using BLL._02_Nhansu._01_Danhmucdungchung;
 using DAL;
-using DevExpress.XtraEditors;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
@@ -21,19 +14,21 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         }
 
         #region Khai báo biến
-        TrinhDo _trinhdoclass;
-        bool _them;
-        int _id;
-        #endregion
+
+        private TrinhDo _trinhDo;
+        private bool _them;
+        private int _id;
+
+        #endregion Khai báo biến
 
         #region Function
 
-        void FC_Cleardata()
+        private void FC_Cleardata()
         {
-            txtTenTrinhDo.Text= string.Empty;
+            txtTenTrinhDo.Text = string.Empty;
         }
 
-        void FC_Showcontrols(bool on)
+        private void FC_Showcontrols(bool on)
         {
             btnThem.Enabled = on;
             btnSua.Enabled = on;
@@ -42,10 +37,10 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             splitContainer1.Panel1Collapsed = on;
 
             btnLuu.Enabled = !on;
-            btnHuy.Enabled = !on;  
+            btnHuy.Enabled = !on;
         }
-        #endregion
 
+        #endregion Function
 
         private void frmtrinhdo_Load(object sender, EventArgs e)
         {
@@ -55,51 +50,47 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             _them = false;
         }
 
-
-        void Loaddata()
+        private void Loaddata()
         {
-            _trinhdoclass= new TrinhDo();
-            gcdanhsach.DataSource = _trinhdoclass.GetList();
-            gvdanhsach.OptionsBehavior.Editable= false;
+            _trinhDo = new TrinhDo();
+            gcdanhsach.DataSource = _trinhDo.GetList();
+            gvdanhsach.OptionsBehavior.Editable = false;
         }
 
-        void Savedata()
+        private void Savedata()
         {
-            if(string.IsNullOrWhiteSpace(txtTenTrinhDo.Text))
+            TB_TRINHDO data;
+            if (_them)
             {
-                MessageBox.Show("Bạn chưa nhập thông tin vào ô!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            if(_them)
-            {
-                TB_TRINHDO data = new TB_TRINHDO();
+                data = new TB_TRINHDO();
                 data.TENTD = txtTenTrinhDo.Text;
-                _trinhdoclass.Add(data);
+                _trinhDo.Add(data);
             }
             else
             {
-                var data = _trinhdoclass.GetItem(_id);
+                data = _trinhDo.GetItem(_id);
                 data.TENTD = txtTenTrinhDo.Text;
-                _trinhdoclass.Update(data);
+                _trinhDo.Update(data);
             }
         }
 
         private void gvdanhsach_Click(object sender, EventArgs e)
         {
-            if(gvdanhsach.RowCount >0)
+            if (gvdanhsach.RowCount > 0)
             {
                 _id = int.Parse(gvdanhsach.GetFocusedRowCellValue("IDTD").ToString());
-                txtTenTrinhDo.Text = gvdanhsach.GetFocusedRowCellValue("TENTD").ToString();
+                var item = _trinhDo.GetItem(_id);
+                txtTenTrinhDo.Text = item.TENTD;
             }
         }
 
         #region BTN
+
         private void btnthem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             FC_Showcontrols(false);
             FC_Cleardata();
-            _them= true;
+            _them = true;
         }
 
         private void btnsua_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -110,9 +101,9 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
 
         private void btnxoa_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if(MessageBox.Show("Bạn có chắc chắn xóa không", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (MessageBox.Show("Bạn có chắc chắn xóa không", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                _trinhdoclass.Delete(_id);
+                _trinhDo.Delete(_id);
                 Loaddata();
             }
         }
@@ -135,8 +126,12 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         {
             this.Close();
         }
-        #endregion
 
-       
+        #endregion BTN
+
+        private void gvdanhsach_CustomDrawRowIndicator(object sender, DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventArgs e)
+        {
+            CustomGridView.Instance.CustomDrawIndicator(e);
+        }
     }
 }

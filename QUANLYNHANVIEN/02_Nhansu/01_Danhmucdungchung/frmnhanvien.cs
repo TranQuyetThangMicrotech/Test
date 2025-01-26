@@ -1,24 +1,14 @@
-﻿using BLL._02_Nhansu._01_Danhmucdungchung;
+﻿using BLL._00_Custom;
+using BLL._02_Nhansu._01_Danhmucdungchung;
 using BLL.DTO;
 using DAL;
-using DevExpress.XtraEditors;
+using DevExpress.XtraReports.UI; // khai báo thư viện để cho in
 using QUANLYNHANVIEN.Report;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO; // thư viện cho hình ảnh
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
-using DevExpress.XtraReports;
-using DevExpress.XtraReports.UI; // khai báo thư viện để cho in
-using DevExpress.XtraGrid.Views.Grid;
-using DevExpress.XtraExport.Helpers;
-using BLL;
 
 namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
 {
@@ -29,29 +19,26 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             InitializeComponent();
         }
 
- 
         #region Khai báo biến toàn cục
-        // Khai báo tạo 1 biến đại diện cho class
-        NhanVien _nhanvienclass;
-        bool _them;
-        int _id;
 
-        DanToc _dantocclass;
-        TonGiao _tongiaoclass;
-        BoPhan _bophanclass;
-        PhongBan _phongbanclass;
-        ChucVu _chucvuclass;
-        TrinhDo _trinhdoclass;
-        CongTy _congtyclass;
+        private NhanVien _nhanVien;
+        private bool _them;
+        private int _id;
 
+        private DanToc _danToc;
+        private TonGiao _tonGiao;
+        private BoPhan _boPhan;
+        private PhongBan _phongBan;
+        private ChucVu _chucVu;
+        private TrinhDo _trinhDo;
+        private CongTy _congTy;
 
         // khai báo list để truyền vào form in
-        List<NhanVienDTO> _lstnvdto;
+        private List<NhanVienDTO> _lstnvdto;
 
-        #endregion
+        #endregion Khai báo biến toàn cục
 
-        // Các hàm
-        #region FUNCTION 
+        #region FUNCTION
 
         // image sang dạng byte để lưu trữ và truyền đi
         public byte[] FC_ImageToBase64(Image image, System.Drawing.Imaging.ImageFormat format)
@@ -67,14 +54,12 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         // byte sang dạng image để hiển thị lên gridview
         public Image FC_Base64ToImage(byte[] imageBytes)
         {
-            MemoryStream ms = new MemoryStream(imageBytes, 0, imageBytes.Length); 
+            MemoryStream ms = new MemoryStream(imageBytes, 0, imageBytes.Length);
             ms.Write(imageBytes, 0, imageBytes.Length); // mảng byte cần đổi, vị trí đọc byte từ vị trí 0 và số byte cần đọc
             Image image = Image.FromStream(ms, true); // gán vào hình ảnh
             return image; // trả về hình ảnh
         }
-    
 
- 
         // Đây là hàm Load dữ liệu lên combobox
         private void FC_LoadComboBox(System.Windows.Forms.ComboBox comboBox, dynamic dataSource, string displayMember, string valueMember)
         {
@@ -82,8 +67,8 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             comboBox.DisplayMember = displayMember;
             comboBox.ValueMember = valueMember;
         }
-       
-        void FC_Cleardata()
+
+        private void FC_Cleardata()
         {
             txtDiaChi.Text = string.Empty;
             txtCCCD.Text = string.Empty;
@@ -91,10 +76,9 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             txtTenNhanVien.Text = string.Empty;
 
             chkGioiTinh.TabIndex = 0;
-
         }
 
-        void FC_Showcontrols(bool on)
+        private void FC_Showcontrols(bool on)
         {
             btnThem.Enabled = on;
             btnSua.Enabled = on;
@@ -108,67 +92,56 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             splitContainer1.Panel1Collapsed = on; //Khi load form "true" sẽ thu gọn panel1
         }
 
-        #endregion FUNCTION 
-
-
+        #endregion FUNCTION
 
         private void frmnhanvien_Load(object sender, EventArgs e)
+
         {
             FC_Showcontrols(true);
             Loaddata();
             _them = false;
         }
 
-        void Loaddata()
+        private void Loaddata()
         {
-            _nhanvienclass = new NhanVien(); // khởi tạo class
+            _nhanVien = new NhanVien();
+            _tonGiao = new TonGiao();
+            _danToc = new DanToc();
+            _boPhan = new BoPhan();
+            _phongBan = new PhongBan();
+            _chucVu = new ChucVu();
+            _trinhDo = new TrinhDo();
+            _congTy = new CongTy();
 
-            _tongiaoclass = new TonGiao(); 
-            _dantocclass = new DanToc();
-            _bophanclass = new BoPhan(); 
-            _phongbanclass = new PhongBan(); 
-            _chucvuclass = new ChucVu(); 
-            _trinhdoclass = new TrinhDo();
-            _congtyclass = new CongTy();
-
-            gcdanhsach.DataSource = _nhanvienclass.GetListFull(); // gắn danh sách cho gridcontrol
+            gcdanhsach.DataSource = _nhanVien.GetListFull(); // gắn danh sách cho gridcontrol
             gvdanhsach.OptionsBehavior.Editable = true; // Không cho phép sửa trên gridview
 
-            FC_LoadComboBox(cbTenCongTy, _congtyclass.GetList(), "TENCTY", "IDCTY");
-            FC_LoadComboBox(cbTenBoPhan, _bophanclass.GetList(), "TENBP", "IDBP");
-            FC_LoadComboBox(cbTenPhongBan, _phongbanclass.GetList(), "TENPB", "IDPB");
-            FC_LoadComboBox(cbTenChucVu, _chucvuclass.GetList(), "TENCV", "IDCV");
-            FC_LoadComboBox(cbTenTrinhDo, _trinhdoclass.GetList(), "TENTD", "IDTD");
-            FC_LoadComboBox(cbTenDanToc, _dantocclass.GetList(), "TENDT", "IDDT");
-            FC_LoadComboBox(cbTenTonGiao, _tongiaoclass.GetList(), "TENTG", "IDTG");
+            FC_LoadComboBox(cbTenCongTy, _congTy.GetList(), "TENCTY", "IDCTY");
+            FC_LoadComboBox(cbTenBoPhan, _boPhan.GetList(), "TENBP", "IDBP");
+            FC_LoadComboBox(cbTenPhongBan, _phongBan.GetList(), "TENPB", "IDPB");
+            FC_LoadComboBox(cbTenChucVu, _chucVu.GetList(), "TENCV", "IDCV");
+            FC_LoadComboBox(cbTenTrinhDo, _trinhDo.GetList(), "TENTD", "IDTD");
+            FC_LoadComboBox(cbTenDanToc, _danToc.GetList(), "TENDT", "IDDT");
+            FC_LoadComboBox(cbTenTonGiao, _tonGiao.GetList(), "TENTG", "IDTG");
 
-            _lstnvdto = _nhanvienclass.GetListFull(); // hứng dữ liệu từ form nv vào danh sách
-                                                      //gvdanhsach.OptionsView.ShowGroupPanel = false;
+            _lstnvdto = _nhanVien.GetListFull(); // hứng dữ liệu từ form nv vào danh sách
+                                                 //gvdanhsach.OptionsView.ShowGroupPanel = false;
 
-
-            gvdanhsach.Columns["TENNV"].GroupIndex = 0;
+            //gvdanhsach.Columns["TENNV"].GroupIndex = 0;
 
             // Tùy chọn: Mở rộng tất cả nhóm
-            gvdanhsach.ExpandAllGroups();
-            gvdanhsach.OptionsView.ShowIndicator = true;
+            //gvdanhsach.ExpandAllGroups();
+            //gvdanhsach.OptionsView.ShowIndicator = true;
             //_testclass = new testclass(); // khởi tạo class
-            gvdanhsach.IndicatorWidth = 50; // Đặt chiều rộng (tuỳ chỉnh)
-
+            //gvdanhsach.IndicatorWidth = 50; // Đặt chiều rộng (tuỳ chỉnh)
         }
 
-        void Savedata()
+        private void Savedata()
         {
-
-            ////Kiểm tra xem ô nhập có trống không
-            //if (string.IsNullOrWhiteSpace(txttendantoc.Text))
-            //{
-            //    MessageBox.Show("Bạn chưa nhập dữ liệu vào ô!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            //    return;
-            //}
-
+            TB_NHANVIEN data;
             if (_them)
             {
-                TB_NHANVIEN data = new TB_NHANVIEN();
+                data = new TB_NHANVIEN();
                 data.TENNV = txtTenNhanVien.Text;
                 data.GIOITINH = chkGioiTinh.Checked;
                 data.NGAYSINH = dtNgaySinh.Value;
@@ -179,8 +152,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
 
                 // image
                 data.HINHANH = FC_ImageToBase64(picHinhAnh.Image, picHinhAnh.Image.RawFormat);
-                    
-                
+
                 data.IDCTY = int.Parse(cbTenCongTy.SelectedValue.ToString());
                 data.IDBP = int.Parse(cbTenBoPhan.SelectedValue.ToString());
                 data.IDPB = int.Parse(cbTenPhongBan.SelectedValue.ToString());
@@ -189,11 +161,11 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
                 data.IDTG = int.Parse(cbTenTonGiao.SelectedValue.ToString());
                 data.IDDT = int.Parse(cbTenDanToc.SelectedValue.ToString());
 
-                _nhanvienclass.Add(data);
+                _nhanVien.Add(data);
             }
             else
             {
-                TB_NHANVIEN data = _nhanvienclass.GetItem(_id);
+                data = _nhanVien.GetItem(_id);
 
                 data.TENNV = txtTenNhanVien.Text;
                 data.GIOITINH = chkGioiTinh.Checked;
@@ -206,7 +178,6 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
                 // image
                 data.HINHANH = FC_ImageToBase64(picHinhAnh.Image, picHinhAnh.Image.RawFormat);
 
-
                 data.IDCTY = int.Parse(cbTenCongTy.SelectedValue.ToString());
                 data.IDBP = int.Parse(cbTenBoPhan.SelectedValue.ToString());
                 data.IDPB = int.Parse(cbTenPhongBan.SelectedValue.ToString());
@@ -215,45 +186,37 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
                 data.IDTG = int.Parse(cbTenTonGiao.SelectedValue.ToString());
                 data.IDDT = int.Parse(cbTenDanToc.SelectedValue.ToString());
 
-                _nhanvienclass.Update(data);
+                _nhanVien.Update(data);
             }
         }
-
 
         private void gvdanhsach_Click_1(object sender, EventArgs e)
         {
             if (gvdanhsach.RowCount > 0)
             {
-                //_id = int.Parse(gvdanhsach.GetFocusedRowCellValue("IDNV").ToString());
+                _id = int.Parse(gvdanhsach.GetFocusedRowCellValue("IDNV").ToString());
 
-                //var nv = _nhanvienclass.getitem(_id); // Lấy được id nhân viên gán lại vào ô
+                var nv = _nhanVien.GetItem(_id);
 
-                //txttennhanvien.Text = nv.TENNV;
-                //txtdiachi.Text = nv.DIACHI;
-                //txtcccd.Text = nv.CCCD;
-                //txtsodienthoai.Text = nv.DIENTHOAI;
+                txtTenNhanVien.Text = nv.TENNV;
+                txtDiaChi.Text = nv.DIACHI;
+                txtCCCD.Text = nv.CCCD;
+                txtSoDienThoai.Text = nv.DIENTHOAI;
 
-                //pichinhanh.Image = FC_Base64ToImage(nv.HINHANH);
+                picHinhAnh.Image = FC_Base64ToImage(nv.HINHANH);
 
-                //chkgioitinh.Checked = nv.GIOITINH.Value; //? tránh trường hợp null
-                //datengaysinh.Value = nv.NGAYSINH.Value; //? tránh trường hợp null
+                chkGioiTinh.Checked = nv.GIOITINH.Value; //? tránh trường hợp null
+                dtNgaySinh.Value = nv.NGAYSINH.Value; //? tránh trường hợp null
 
-
-                //cbcongty.SelectedValue = nv.IDCTY;
-                //cbbophan.SelectedValue = nv.IDBP;
-                //cbphongban.SelectedValue = nv.IDPB;
-                //cbchucvu.SelectedValue = nv.IDCV;
-                //cbtrinhdo.SelectedValue = nv.IDTD;
-                //cbtongiao.SelectedValue = nv.IDTG;
-                //cbdantoc.SelectedValue = nv.IDDT;
-
+                cbTenCongTy.SelectedValue = nv.IDCTY;
+                cbTenBoPhan.SelectedValue = nv.IDBP;
+                cbTenPhongBan.SelectedValue = nv.IDPB;
+                cbTenChucVu.SelectedValue = nv.IDCV;
+                cbTenTrinhDo.SelectedValue = nv.IDTD;
+                cbTenTonGiao.SelectedValue = nv.IDTG;
+                cbTenDanToc.SelectedValue = nv.IDDT;
             }
         }
-
-
-
-
-
 
         #region BTN
 
@@ -274,7 +237,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         {
             if (MessageBox.Show("Bạn có chắc chắn xóa không", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                _nhanvienclass.Delete(_id);
+                _nhanVien.Delete(_id);
                 Loaddata();
             }
         }
@@ -304,7 +267,6 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             this.Close();
         }
 
-
         private void btnhinhanh_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFile = new OpenFileDialog();
@@ -312,13 +274,12 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             openFile.Title = "Chọn hỉnh ảnh";
             if (openFile.ShowDialog() == DialogResult.OK)
             {
-                picHinhAnh.Image = Image.FromFile(openFile.FileName); // chọn file hình 
+                picHinhAnh.Image = Image.FromFile(openFile.FileName); // chọn file hình
                 picHinhAnh.SizeMode = PictureBoxSizeMode.StretchImage; // chế độ hiển thị
             }
         }
 
-
-        #endregion
+        #endregion BTN
 
         private void gvdanhsach_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
         {
@@ -334,17 +295,17 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         private void button1_Click(object sender, EventArgs e)
         {
             // Nhóm theo cột TENNV
-          
         }
 
         private void gvdanhsach_CellValueChanged(object sender, DevExpress.XtraGrid.Views.Base.CellValueChangedEventArgs e)
         {
-            //if (e.Column.FieldName == "gridColumn1")
-            //{
-            //    gvdanhsach.PostEditor(); // Kết thúc chỉnh sửa và lưu giá trị vào DataSource
-            //    gvdanhsach.UpdateCurrentRow(); // Cập nhật hàng hiện tại
-            //}
-            //gvdanhsach.CellValueChanged += gvdanhsach_CellValueChanged;
         }
-    } 
+
+        private void gvdanhsach_CustomDrawRowIndicator(object sender, DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventArgs e)
+        {
+            CustomGridView.Instance.CustomDrawIndicator(e);
+        }
+
+       
+    }
 }

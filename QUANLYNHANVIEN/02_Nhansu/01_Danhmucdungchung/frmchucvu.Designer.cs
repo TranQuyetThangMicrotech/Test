@@ -70,7 +70,7 @@
             this.TENCV.MinWidth = 300;
             this.TENCV.Name = "TENCV";
             this.TENCV.Visible = true;
-            this.TENCV.VisibleIndex = 1;
+            this.TENCV.VisibleIndex = 0;
             this.TENCV.Width = 300;
             // 
             // gvdanhsach
@@ -79,8 +79,10 @@
             this.IDCV,
             this.TENCV});
             this.gvdanhsach.GridControl = this.gcdanhsach;
+            this.gvdanhsach.IndicatorWidth = 50;
             this.gvdanhsach.Name = "gvdanhsach";
             this.gvdanhsach.OptionsView.ShowGroupPanel = false;
+            this.gvdanhsach.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gvdanhsach_CustomDrawRowIndicator);
             this.gvdanhsach.Click += new System.EventHandler(this.gvdanhsach_Click_1);
             // 
             // IDCV
@@ -92,8 +94,6 @@
             this.IDCV.MaxWidth = 50;
             this.IDCV.MinWidth = 50;
             this.IDCV.Name = "IDCV";
-            this.IDCV.Visible = true;
-            this.IDCV.VisibleIndex = 0;
             this.IDCV.Width = 50;
             // 
             // gcdanhsach
@@ -105,6 +105,7 @@
             this.gcdanhsach.Name = "gcdanhsach";
             this.gcdanhsach.Size = new System.Drawing.Size(1246, 583);
             this.gcdanhsach.TabIndex = 0;
+            this.gcdanhsach.UseEmbeddedNavigator = true;
             this.gcdanhsach.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvdanhsach});
             // 
@@ -240,7 +241,7 @@
             // 
             // txtTenChucVu
             // 
-            this.txtTenChucVu.Location = new System.Drawing.Point(122, 38);
+            this.txtTenChucVu.Location = new System.Drawing.Point(153, 38);
             this.txtTenChucVu.MenuManager = this.barManager1;
             this.txtTenChucVu.Name = "txtTenChucVu";
             this.txtTenChucVu.Size = new System.Drawing.Size(233, 26);
@@ -248,7 +249,7 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(26, 41);
+            this.labelControl1.Location = new System.Drawing.Point(57, 41);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(93, 19);
             this.labelControl1.TabIndex = 0;
@@ -285,7 +286,7 @@
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.Name = "frmchucvu";
-            this.Text = "frmchucvu";
+            this.Text = "Chức vụ";
             this.Load += new System.EventHandler(this.frmchucvu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gvdanhsach)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcdanhsach)).EndInit();

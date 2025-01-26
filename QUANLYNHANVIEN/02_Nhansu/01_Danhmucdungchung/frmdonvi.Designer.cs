@@ -75,6 +75,7 @@
             this.gcdanhsach.Name = "gcdanhsach";
             this.gcdanhsach.Size = new System.Drawing.Size(1059, 447);
             this.gcdanhsach.TabIndex = 0;
+            this.gcdanhsach.UseEmbeddedNavigator = true;
             this.gcdanhsach.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvdanhsach});
             // 
@@ -86,8 +87,10 @@
             this.TENCTY,
             this.IDCTY});
             this.gvdanhsach.GridControl = this.gcdanhsach;
+            this.gvdanhsach.IndicatorWidth = 50;
             this.gvdanhsach.Name = "gvdanhsach";
             this.gvdanhsach.OptionsView.ShowGroupPanel = false;
+            this.gvdanhsach.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gvdanhsach_CustomDrawRowIndicator);
             this.gvdanhsach.Click += new System.EventHandler(this.gvdanhsach_Click);
             // 
             // IDDVI
@@ -99,8 +102,6 @@
             this.IDDVI.MaxWidth = 50;
             this.IDDVI.MinWidth = 50;
             this.IDDVI.Name = "IDDVI";
-            this.IDDVI.Visible = true;
-            this.IDDVI.VisibleIndex = 0;
             this.IDDVI.Width = 50;
             // 
             // TENDVI
@@ -113,7 +114,7 @@
             this.TENDVI.MinWidth = 250;
             this.TENDVI.Name = "TENDVI";
             this.TENDVI.Visible = true;
-            this.TENDVI.VisibleIndex = 1;
+            this.TENDVI.VisibleIndex = 0;
             this.TENDVI.Width = 250;
             // 
             // TENCTY
@@ -126,7 +127,7 @@
             this.TENCTY.MinWidth = 250;
             this.TENCTY.Name = "TENCTY";
             this.TENCTY.Visible = true;
-            this.TENCTY.VisibleIndex = 2;
+            this.TENCTY.VisibleIndex = 1;
             this.TENCTY.Width = 250;
             // 
             // IDCTY
@@ -181,7 +182,7 @@
             // 
             this.btnThem.Caption = "Thêm";
             this.btnThem.Id = 0;
-            this.btnThem.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnthem.ImageOptions.SvgImage")));
+            this.btnThem.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnThem.ImageOptions.SvgImage")));
             this.btnThem.Name = "btnThem";
             this.btnThem.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.btnThem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnthem_ItemClick);
@@ -190,7 +191,7 @@
             // 
             this.btnSua.Caption = "Sửa";
             this.btnSua.Id = 1;
-            this.btnSua.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnsua.ImageOptions.SvgImage")));
+            this.btnSua.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnSua.ImageOptions.SvgImage")));
             this.btnSua.Name = "btnSua";
             this.btnSua.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnsua_ItemClick);
             // 
@@ -198,7 +199,7 @@
             // 
             this.btnXoa.Caption = "Xóa";
             this.btnXoa.Id = 2;
-            this.btnXoa.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnxoa.ImageOptions.SvgImage")));
+            this.btnXoa.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnXoa.ImageOptions.SvgImage")));
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.btnXoa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnxoa_ItemClick);
@@ -207,7 +208,7 @@
             // 
             this.btnLuu.Caption = "Lưu";
             this.btnLuu.Id = 3;
-            this.btnLuu.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnluu.ImageOptions.SvgImage")));
+            this.btnLuu.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnLuu.ImageOptions.SvgImage")));
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.btnLuu.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnluu_ItemClick);
@@ -216,7 +217,7 @@
             // 
             this.btnHuy.Caption = "Hủy";
             this.btnHuy.Id = 4;
-            this.btnHuy.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnhuy.ImageOptions.SvgImage")));
+            this.btnHuy.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnHuy.ImageOptions.SvgImage")));
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnhuy_ItemClick);
             // 
@@ -224,14 +225,14 @@
             // 
             this.btnPhoto.Caption = "In";
             this.btnPhoto.Id = 9;
-            this.btnPhoto.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnphoto.ImageOptions.SvgImage")));
+            this.btnPhoto.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnPhoto.ImageOptions.SvgImage")));
             this.btnPhoto.Name = "btnPhoto";
             // 
             // btnDong
             // 
             this.btnDong.Caption = "Đóng";
             this.btnDong.Id = 5;
-            this.btnDong.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btndong.ImageOptions.SvgImage")));
+            this.btnDong.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnDong.ImageOptions.SvgImage")));
             this.btnDong.Name = "btnDong";
             this.btnDong.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btndong_ItemClick);
             // 
@@ -323,7 +324,7 @@
             // 
             // txtTenDonVi
             // 
-            this.txtTenDonVi.Location = new System.Drawing.Point(149, 21);
+            this.txtTenDonVi.Location = new System.Drawing.Point(149, 25);
             this.txtTenDonVi.MenuManager = this.barManager1;
             this.txtTenDonVi.Name = "txtTenDonVi";
             this.txtTenDonVi.Size = new System.Drawing.Size(250, 26);
@@ -331,7 +332,7 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(36, 24);
+            this.labelControl1.Location = new System.Drawing.Point(36, 28);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(82, 19);
             this.labelControl1.TabIndex = 0;
@@ -348,7 +349,7 @@
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.Name = "frmdonvi";
-            this.Text = "frmdonvi";
+            this.Text = "Đơn vị";
             this.Load += new System.EventHandler(this.frmdonvi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gcdanhsach)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvdanhsach)).EndInit();

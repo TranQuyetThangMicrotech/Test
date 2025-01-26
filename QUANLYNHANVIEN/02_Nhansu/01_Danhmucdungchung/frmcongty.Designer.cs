@@ -82,7 +82,7 @@
             this.TENCTY.MinWidth = 500;
             this.TENCTY.Name = "TENCTY";
             this.TENCTY.Visible = true;
-            this.TENCTY.VisibleIndex = 1;
+            this.TENCTY.VisibleIndex = 0;
             this.TENCTY.Width = 500;
             // 
             // gvdanhsach
@@ -94,8 +94,10 @@
             this.DIENTHOAI,
             this.DIACHI});
             this.gvdanhsach.GridControl = this.gcdanhsach;
+            this.gvdanhsach.IndicatorWidth = 50;
             this.gvdanhsach.Name = "gvdanhsach";
             this.gvdanhsach.OptionsView.ShowGroupPanel = false;
+            this.gvdanhsach.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gvdanhsach_CustomDrawRowIndicator);
             this.gvdanhsach.Click += new System.EventHandler(this.gvdanhsach_Click);
             // 
             // IDCTY
@@ -107,8 +109,6 @@
             this.IDCTY.MaxWidth = 50;
             this.IDCTY.MinWidth = 50;
             this.IDCTY.Name = "IDCTY";
-            this.IDCTY.Visible = true;
-            this.IDCTY.VisibleIndex = 0;
             this.IDCTY.Width = 50;
             // 
             // EMAIL
@@ -121,7 +121,7 @@
             this.EMAIL.MinWidth = 350;
             this.EMAIL.Name = "EMAIL";
             this.EMAIL.Visible = true;
-            this.EMAIL.VisibleIndex = 2;
+            this.EMAIL.VisibleIndex = 1;
             this.EMAIL.Width = 350;
             // 
             // DIENTHOAI
@@ -134,7 +134,7 @@
             this.DIENTHOAI.MinWidth = 250;
             this.DIENTHOAI.Name = "DIENTHOAI";
             this.DIENTHOAI.Visible = true;
-            this.DIENTHOAI.VisibleIndex = 3;
+            this.DIENTHOAI.VisibleIndex = 2;
             this.DIENTHOAI.Width = 250;
             // 
             // DIACHI
@@ -143,7 +143,7 @@
             this.DIACHI.FieldName = "DIACHI";
             this.DIACHI.Name = "DIACHI";
             this.DIACHI.Visible = true;
-            this.DIACHI.VisibleIndex = 4;
+            this.DIACHI.VisibleIndex = 3;
             // 
             // gcdanhsach
             // 
@@ -154,6 +154,7 @@
             this.gcdanhsach.Name = "gcdanhsach";
             this.gcdanhsach.Size = new System.Drawing.Size(1163, 491);
             this.gcdanhsach.TabIndex = 0;
+            this.gcdanhsach.UseEmbeddedNavigator = true;
             this.gcdanhsach.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvdanhsach});
             // 
@@ -199,7 +200,7 @@
             // 
             this.btnThem.Caption = "Thêm";
             this.btnThem.Id = 0;
-            this.btnThem.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnthem.ImageOptions.SvgImage")));
+            this.btnThem.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnThem.ImageOptions.SvgImage")));
             this.btnThem.Name = "btnThem";
             this.btnThem.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.btnThem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnthem_ItemClick);
@@ -208,7 +209,7 @@
             // 
             this.btnSua.Caption = "Sửa";
             this.btnSua.Id = 1;
-            this.btnSua.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnsua.ImageOptions.SvgImage")));
+            this.btnSua.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnSua.ImageOptions.SvgImage")));
             this.btnSua.Name = "btnSua";
             this.btnSua.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnsua_ItemClick);
             // 
@@ -216,7 +217,7 @@
             // 
             this.btnXoa.Caption = "Xóa";
             this.btnXoa.Id = 2;
-            this.btnXoa.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnxoa.ImageOptions.SvgImage")));
+            this.btnXoa.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnXoa.ImageOptions.SvgImage")));
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.btnXoa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnxoa_ItemClick);
@@ -225,7 +226,7 @@
             // 
             this.btnLuu.Caption = "Lưu";
             this.btnLuu.Id = 3;
-            this.btnLuu.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnluu.ImageOptions.SvgImage")));
+            this.btnLuu.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnLuu.ImageOptions.SvgImage")));
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.btnLuu.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnluu_ItemClick);
@@ -234,7 +235,7 @@
             // 
             this.btnHuy.Caption = "Hủy";
             this.btnHuy.Id = 4;
-            this.btnHuy.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnhuy.ImageOptions.SvgImage")));
+            this.btnHuy.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnHuy.ImageOptions.SvgImage")));
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnhuy_ItemClick);
             // 
@@ -242,7 +243,7 @@
             // 
             this.btnDong.Caption = "Đóng";
             this.btnDong.Id = 5;
-            this.btnDong.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btndong.ImageOptions.SvgImage")));
+            this.btnDong.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnDong.ImageOptions.SvgImage")));
             this.btnDong.Name = "btnDong";
             this.btnDong.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btndong_ItemClick);
             // 

@@ -1,4 +1,5 @@
-﻿using BLL._02_Nhansu._01_Danhmucdungchung;
+﻿using BLL._00_Custom;
+using BLL._02_Nhansu._01_Danhmucdungchung;
 using DAL;
 using System;
 using System.Windows.Forms;
@@ -21,15 +22,12 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
 
         #region Khai báo biến toàn cục
 
-
-        private ChucVu _chucvuclass;
+        private ChucVu _chuvVu;
 
         private bool _them;
         private int _id;
 
         #endregion Khai báo biến toàn cục
-
-        // Các hàm
 
         #region FUNCTION
 
@@ -48,7 +46,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             btnHuy.Enabled = !on;
             btnLuu.Enabled = !on;
 
-            splitContainer1.Panel1Collapsed = on; //Khi load form "true" sẽ thu gọn panel1
+            splitContainer1.Panel1Collapsed = on;
         }
 
         #endregion FUNCTION
@@ -56,31 +54,25 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         private void Loaddata()
 
         {
-            _chucvuclass = new ChucVu(); // khởi tạo class
-            gcdanhsach.DataSource = _chucvuclass.GetList(); // gắn danh sách cho gridcontrol
-            gvdanhsach.OptionsBehavior.Editable = false; // Không cho phép sửa trên gridview
+            _chuvVu = new ChucVu();
+            gcdanhsach.DataSource = _chuvVu.GetList();
+            gvdanhsach.OptionsBehavior.Editable = false;
         }
 
         private void Savedata()
         {
-            //Kiểm tra xem ô nhập có trống không
-            if (string.IsNullOrWhiteSpace(txtTenChucVu.Text))
-            {
-                MessageBox.Show("Bạn chưa nhập dữ liệu vào ô!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
+            TB_CHUCVU data;
             if (_them)
             {
-                TB_CHUCVU data = new TB_CHUCVU();
+                data = new TB_CHUCVU();
                 data.TENCV = txtTenChucVu.Text;
-                _chucvuclass.Add(data);
+                _chuvVu.Add(data);
             }
             else
             {
-                var data = _chucvuclass.GetItem(_id);
+                data = _chuvVu.GetItem(_id);
                 data.TENCV = txtTenChucVu.Text;
-                _chucvuclass.Update(data);
+                _chuvVu.Update(data);
             }
         }
 
@@ -88,8 +80,9 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         {
             if (gvdanhsach.RowCount > 0)
             {
-                _id = int.Parse(gvdanhsach.GetFocusedRowCellValue("IDCV").ToString()); // Lấy giá trị tại cột có tên là "IDDT" chuyển đổi giá trị thành kiểu int
-                txtTenChucVu.Text = gvdanhsach.GetFocusedRowCellValue("TENCV").ToString(); // Lấy giá trị cột "TENDT" và chuyển thành chuỗi gán cho textedit
+                _id = int.Parse(gvdanhsach.GetFocusedRowCellValue("IDCV").ToString());
+                var item = _chuvVu.GetItem(_id);
+                txtTenChucVu.Text = item.TENCV;
             }
         }
 
@@ -99,6 +92,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         {
             FC_Showcontrols(false);
             FC_Cleardata();
+            gcdanhsach.Enabled = false;
             _them = true;
         }
 
@@ -112,7 +106,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         {
             if (MessageBox.Show("Bạn có chắc chắn xóa không", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                _chucvuclass.Delete(_id);
+                _chuvVu.Delete(_id);
                 Loaddata();
             }
         }
@@ -120,7 +114,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         private void btnluu_ItemClick_1(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             FC_Showcontrols(true);
-            //FC_Showgridview(true);
+            gcdanhsach.Enabled = true;
             Savedata();
             Loaddata();
             _them = false;
@@ -129,7 +123,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         private void btnhuy_ItemClick_1(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             FC_Showcontrols(true);
-            //FC_Showgridview(true);
+            gcdanhsach.Enabled = true;
             _them = false;
         }
 
@@ -139,5 +133,10 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         }
 
         #endregion BTN
+
+        private void gvdanhsach_CustomDrawRowIndicator(object sender, DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventArgs e)
+        {
+            CustomGridView.Instance.CustomDrawIndicator(e);
+        }
     }
 }

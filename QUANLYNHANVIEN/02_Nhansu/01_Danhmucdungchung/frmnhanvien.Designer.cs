@@ -35,9 +35,6 @@
             this.gvdanhsach = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.IDNV = new DevExpress.XtraGrid.Columns.GridColumn();
             this.GIOITINH = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.DIENTHOAI = new DevExpress.XtraGrid.Columns.GridColumn();
             this.NGAYSINH = new DevExpress.XtraGrid.Columns.GridColumn();
             this.CCCD = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -72,10 +69,9 @@
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
-            this.btnin = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.button1 = new System.Windows.Forms.Button();
             this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
             this.dtNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.cbTenPhongBan = new System.Windows.Forms.ComboBox();
@@ -110,9 +106,9 @@
             this.barDockControl3 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl4 = new DevExpress.XtraBars.BarDockControl();
             ((System.ComponentModel.ISupportInitialize)(this.gvdanhsach)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcdanhsach)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -139,7 +135,7 @@
             this.TENNV.MinWidth = 250;
             this.TENNV.Name = "TENNV";
             this.TENNV.Visible = true;
-            this.TENNV.VisibleIndex = 2;
+            this.TENNV.VisibleIndex = 1;
             this.TENNV.Width = 250;
             // 
             // gvdanhsach
@@ -160,8 +156,6 @@
             this.IDNV,
             this.TENNV,
             this.GIOITINH,
-            this.gridColumn2,
-            this.gridColumn1,
             this.DIENTHOAI,
             this.NGAYSINH,
             this.CCCD,
@@ -189,8 +183,10 @@
             gridFormatRule1.Rule = null;
             this.gvdanhsach.FormatRules.Add(gridFormatRule1);
             this.gvdanhsach.GridControl = this.gcdanhsach;
+            this.gvdanhsach.IndicatorWidth = 50;
             this.gvdanhsach.Name = "gvdanhsach";
             this.gvdanhsach.OptionsView.ShowGroupPanel = false;
+            this.gvdanhsach.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gvdanhsach_CustomDrawRowIndicator);
             this.gvdanhsach.CustomDrawCell += new DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventHandler(this.gvdanhsach_CustomDrawCell);
             this.gvdanhsach.CellValueChanged += new DevExpress.XtraGrid.Views.Base.CellValueChangedEventHandler(this.gvdanhsach_CellValueChanged);
             this.gvdanhsach.Click += new System.EventHandler(this.gvdanhsach_Click_1);
@@ -204,8 +200,6 @@
             this.IDNV.MaxWidth = 50;
             this.IDNV.MinWidth = 50;
             this.IDNV.Name = "IDNV";
-            this.IDNV.Visible = true;
-            this.IDNV.VisibleIndex = 0;
             this.IDNV.Width = 50;
             // 
             // GIOITINH
@@ -218,40 +212,8 @@
             this.GIOITINH.MinWidth = 125;
             this.GIOITINH.Name = "GIOITINH";
             this.GIOITINH.Visible = true;
-            this.GIOITINH.VisibleIndex = 1;
+            this.GIOITINH.VisibleIndex = 0;
             this.GIOITINH.Width = 125;
-            // 
-            // gridColumn2
-            // 
-            this.gridColumn2.Caption = "gridColumn2";
-            this.gridColumn2.ColumnEdit = this.repositoryItemCheckEdit1;
-            this.gridColumn2.MaxWidth = 50;
-            this.gridColumn2.MinWidth = 50;
-            this.gridColumn2.Name = "gridColumn2";
-            this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 3;
-            this.gridColumn2.Width = 50;
-            // 
-            // repositoryItemCheckEdit1
-            // 
-            this.repositoryItemCheckEdit1.AutoHeight = false;
-            this.repositoryItemCheckEdit1.CheckBoxOptions.Style = DevExpress.XtraEditors.Controls.CheckBoxStyle.SvgRadio1;
-            this.repositoryItemCheckEdit1.CheckBoxOptions.SvgColorChecked = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.repositoryItemCheckEdit1.CheckBoxOptions.SvgColorGrayed = System.Drawing.Color.Black;
-            this.repositoryItemCheckEdit1.CheckBoxOptions.SvgColorUnchecked = System.Drawing.Color.White;
-            this.repositoryItemCheckEdit1.CheckBoxOptions.SvgImageSize = new System.Drawing.Size(30, 30);
-            this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
-            // 
-            // gridColumn1
-            // 
-            this.gridColumn1.Caption = "gridColumn1";
-            this.gridColumn1.ColumnEdit = this.repositoryItemCheckEdit1;
-            this.gridColumn1.MaxWidth = 50;
-            this.gridColumn1.MinWidth = 50;
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 4;
-            this.gridColumn1.Width = 50;
             // 
             // DIENTHOAI
             // 
@@ -263,7 +225,7 @@
             this.DIENTHOAI.MinWidth = 200;
             this.DIENTHOAI.Name = "DIENTHOAI";
             this.DIENTHOAI.Visible = true;
-            this.DIENTHOAI.VisibleIndex = 5;
+            this.DIENTHOAI.VisibleIndex = 2;
             this.DIENTHOAI.Width = 200;
             // 
             // NGAYSINH
@@ -276,7 +238,7 @@
             this.NGAYSINH.MinWidth = 150;
             this.NGAYSINH.Name = "NGAYSINH";
             this.NGAYSINH.Visible = true;
-            this.NGAYSINH.VisibleIndex = 6;
+            this.NGAYSINH.VisibleIndex = 3;
             this.NGAYSINH.Width = 150;
             // 
             // CCCD
@@ -289,7 +251,7 @@
             this.CCCD.MinWidth = 100;
             this.CCCD.Name = "CCCD";
             this.CCCD.Visible = true;
-            this.CCCD.VisibleIndex = 7;
+            this.CCCD.VisibleIndex = 4;
             this.CCCD.Width = 100;
             // 
             // DIACHI
@@ -302,7 +264,7 @@
             this.DIACHI.MinWidth = 250;
             this.DIACHI.Name = "DIACHI";
             this.DIACHI.Visible = true;
-            this.DIACHI.VisibleIndex = 8;
+            this.DIACHI.VisibleIndex = 5;
             this.DIACHI.Width = 250;
             // 
             // TENCTY
@@ -315,7 +277,7 @@
             this.TENCTY.MinWidth = 250;
             this.TENCTY.Name = "TENCTY";
             this.TENCTY.Visible = true;
-            this.TENCTY.VisibleIndex = 9;
+            this.TENCTY.VisibleIndex = 6;
             this.TENCTY.Width = 250;
             // 
             // TENBP
@@ -328,7 +290,7 @@
             this.TENBP.MinWidth = 125;
             this.TENBP.Name = "TENBP";
             this.TENBP.Visible = true;
-            this.TENBP.VisibleIndex = 10;
+            this.TENBP.VisibleIndex = 7;
             this.TENBP.Width = 125;
             // 
             // TENPB
@@ -341,7 +303,7 @@
             this.TENPB.MinWidth = 125;
             this.TENPB.Name = "TENPB";
             this.TENPB.Visible = true;
-            this.TENPB.VisibleIndex = 11;
+            this.TENPB.VisibleIndex = 8;
             this.TENPB.Width = 125;
             // 
             // TENCV
@@ -354,7 +316,7 @@
             this.TENCV.MinWidth = 125;
             this.TENCV.Name = "TENCV";
             this.TENCV.Visible = true;
-            this.TENCV.VisibleIndex = 12;
+            this.TENCV.VisibleIndex = 9;
             this.TENCV.Width = 125;
             // 
             // TENTD
@@ -367,7 +329,7 @@
             this.TENTD.MinWidth = 125;
             this.TENTD.Name = "TENTD";
             this.TENTD.Visible = true;
-            this.TENTD.VisibleIndex = 13;
+            this.TENTD.VisibleIndex = 10;
             this.TENTD.Width = 125;
             // 
             // TENDT
@@ -380,7 +342,7 @@
             this.TENDT.MinWidth = 100;
             this.TENDT.Name = "TENDT";
             this.TENDT.Visible = true;
-            this.TENDT.VisibleIndex = 14;
+            this.TENDT.VisibleIndex = 11;
             this.TENDT.Width = 100;
             // 
             // TENTG
@@ -393,7 +355,7 @@
             this.TENTG.MinWidth = 100;
             this.TENTG.Name = "TENTG";
             this.TENTG.Visible = true;
-            this.TENTG.VisibleIndex = 15;
+            this.TENTG.VisibleIndex = 12;
             this.TENTG.Width = 100;
             // 
             // IDCTY
@@ -455,7 +417,7 @@
             this.HINHANH.MinWidth = 150;
             this.HINHANH.Name = "HINHANH";
             this.HINHANH.Visible = true;
-            this.HINHANH.VisibleIndex = 16;
+            this.HINHANH.VisibleIndex = 13;
             this.HINHANH.Width = 150;
             // 
             // STATUS
@@ -464,7 +426,7 @@
             this.STATUS.FieldName = "STATUS";
             this.STATUS.Name = "STATUS";
             this.STATUS.Visible = true;
-            this.STATUS.VisibleIndex = 17;
+            this.STATUS.VisibleIndex = 14;
             // 
             // gcdanhsach
             // 
@@ -475,7 +437,7 @@
             this.gcdanhsach.Name = "gcdanhsach";
             this.gcdanhsach.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit1});
-            this.gcdanhsach.Size = new System.Drawing.Size(1211, 480);
+            this.gcdanhsach.Size = new System.Drawing.Size(1379, 480);
             this.gcdanhsach.TabIndex = 0;
             this.gcdanhsach.UseEmbeddedNavigator = true;
             this.gcdanhsach.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -497,7 +459,6 @@
             this.btnLuu,
             this.btnHuy,
             this.btnDong,
-            this.btnin,
             this.barButtonItem1,
             this.btnPhoto});
             this.barManager1.MainMenu = this.bar2;
@@ -526,7 +487,7 @@
             // 
             this.btnThem.Caption = "Thêm";
             this.btnThem.Id = 0;
-            this.btnThem.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnthem.ImageOptions.SvgImage")));
+            this.btnThem.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnThem.ImageOptions.SvgImage")));
             this.btnThem.Name = "btnThem";
             this.btnThem.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.btnThem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnthem_ItemClick_1);
@@ -535,7 +496,7 @@
             // 
             this.btnSua.Caption = "Sửa";
             this.btnSua.Id = 1;
-            this.btnSua.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnsua.ImageOptions.SvgImage")));
+            this.btnSua.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnSua.ImageOptions.SvgImage")));
             this.btnSua.Name = "btnSua";
             this.btnSua.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnsua_ItemClick_1);
             // 
@@ -543,7 +504,7 @@
             // 
             this.btnXoa.Caption = "Xóa";
             this.btnXoa.Id = 2;
-            this.btnXoa.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnxoa.ImageOptions.SvgImage")));
+            this.btnXoa.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnXoa.ImageOptions.SvgImage")));
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.btnXoa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnxoa_ItemClick_1);
@@ -552,7 +513,7 @@
             // 
             this.btnLuu.Caption = "Lưu";
             this.btnLuu.Id = 3;
-            this.btnLuu.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnluu.ImageOptions.SvgImage")));
+            this.btnLuu.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnLuu.ImageOptions.SvgImage")));
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.btnLuu.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnluu_ItemClick_1);
@@ -561,7 +522,7 @@
             // 
             this.btnHuy.Caption = "Hủy";
             this.btnHuy.Id = 4;
-            this.btnHuy.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnhuy.ImageOptions.SvgImage")));
+            this.btnHuy.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnHuy.ImageOptions.SvgImage")));
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnhuy_ItemClick_1);
             // 
@@ -569,7 +530,7 @@
             // 
             this.btnPhoto.Caption = "In";
             this.btnPhoto.Id = 9;
-            this.btnPhoto.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnphoto.ImageOptions.SvgImage")));
+            this.btnPhoto.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnPhoto.ImageOptions.SvgImage")));
             this.btnPhoto.Name = "btnPhoto";
             this.btnPhoto.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnphoto_ItemClick);
             // 
@@ -577,7 +538,7 @@
             // 
             this.btnDong.Caption = "Đóng";
             this.btnDong.Id = 5;
-            this.btnDong.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btndong.ImageOptions.SvgImage")));
+            this.btnDong.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnDong.ImageOptions.SvgImage")));
             this.btnDong.Name = "btnDong";
             this.btnDong.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btndong_ItemClick_1);
             // 
@@ -588,7 +549,7 @@
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
             this.barDockControlTop.Margin = new System.Windows.Forms.Padding(5);
-            this.barDockControlTop.Size = new System.Drawing.Size(1211, 28);
+            this.barDockControlTop.Size = new System.Drawing.Size(1379, 28);
             // 
             // barDockControlBottom
             // 
@@ -597,7 +558,7 @@
             this.barDockControlBottom.Location = new System.Drawing.Point(0, 778);
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(5);
-            this.barDockControlBottom.Size = new System.Drawing.Size(1211, 0);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1379, 0);
             // 
             // barDockControlLeft
             // 
@@ -612,15 +573,10 @@
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1211, 28);
+            this.barDockControlRight.Location = new System.Drawing.Point(1379, 28);
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(5);
             this.barDockControlRight.Size = new System.Drawing.Size(0, 750);
-            // 
-            // btnin
-            // 
-            this.btnin.Id = 7;
-            this.btnin.Name = "btnin";
             // 
             // barButtonItem1
             // 
@@ -628,6 +584,16 @@
             this.barButtonItem1.Id = 8;
             this.barButtonItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem1.ImageOptions.SvgImage")));
             this.barButtonItem1.Name = "barButtonItem1";
+            // 
+            // repositoryItemCheckEdit1
+            // 
+            this.repositoryItemCheckEdit1.AutoHeight = false;
+            this.repositoryItemCheckEdit1.CheckBoxOptions.Style = DevExpress.XtraEditors.Controls.CheckBoxStyle.SvgRadio1;
+            this.repositoryItemCheckEdit1.CheckBoxOptions.SvgColorChecked = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.repositoryItemCheckEdit1.CheckBoxOptions.SvgColorGrayed = System.Drawing.Color.Black;
+            this.repositoryItemCheckEdit1.CheckBoxOptions.SvgColorUnchecked = System.Drawing.Color.White;
+            this.repositoryItemCheckEdit1.CheckBoxOptions.SvgImageSize = new System.Drawing.Size(30, 30);
+            this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
             // 
             // splitContainer1
             // 
@@ -639,7 +605,6 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.button1);
             this.splitContainer1.Panel1.Controls.Add(this.labelControl13);
             this.splitContainer1.Panel1.Controls.Add(this.dtNgaySinh);
             this.splitContainer1.Panel1.Controls.Add(this.cbTenPhongBan);
@@ -672,19 +637,9 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.gcdanhsach);
-            this.splitContainer1.Size = new System.Drawing.Size(1211, 750);
+            this.splitContainer1.Size = new System.Drawing.Size(1379, 750);
             this.splitContainer1.SplitterDistance = 266;
             this.splitContainer1.TabIndex = 5;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(189, 230);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 34);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Chọn ảnh";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // labelControl13
             // 
@@ -931,7 +886,7 @@
             this.barDockControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControl1.Location = new System.Drawing.Point(0, 0);
             this.barDockControl1.Manager = this.barManager2;
-            this.barDockControl1.Size = new System.Drawing.Size(1211, 0);
+            this.barDockControl1.Size = new System.Drawing.Size(1379, 0);
             // 
             // barDockControl2
             // 
@@ -939,7 +894,7 @@
             this.barDockControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.barDockControl2.Location = new System.Drawing.Point(0, 778);
             this.barDockControl2.Manager = this.barManager2;
-            this.barDockControl2.Size = new System.Drawing.Size(1211, 0);
+            this.barDockControl2.Size = new System.Drawing.Size(1379, 0);
             // 
             // barDockControl3
             // 
@@ -953,7 +908,7 @@
             // 
             this.barDockControl4.CausesValidation = false;
             this.barDockControl4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControl4.Location = new System.Drawing.Point(1211, 0);
+            this.barDockControl4.Location = new System.Drawing.Point(1379, 0);
             this.barDockControl4.Manager = this.barManager2;
             this.barDockControl4.Size = new System.Drawing.Size(0, 778);
             // 
@@ -961,7 +916,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1211, 778);
+            this.ClientSize = new System.Drawing.Size(1379, 778);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
@@ -975,9 +930,9 @@
             this.Text = "Nhân viên";
             this.Load += new System.EventHandler(this.frmnhanvien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gvdanhsach)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcdanhsach)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
@@ -1071,8 +1026,5 @@
         private DevExpress.XtraBars.BarDockControl barDockControl1;
         private DevExpress.XtraBars.BarDockControl barDockControl2;
         private DevExpress.XtraBars.BarDockControl barDockControl4;
-        private System.Windows.Forms.Button button1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
     }
 }

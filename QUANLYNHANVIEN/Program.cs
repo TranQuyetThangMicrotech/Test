@@ -17,7 +17,7 @@ namespace QUANLYNHANVIEN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmtest());
+            Application.Run(new MainForm());
         }
     }
 }

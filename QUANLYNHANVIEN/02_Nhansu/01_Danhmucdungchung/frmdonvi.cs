@@ -1,15 +1,8 @@
-﻿using DevExpress.XtraEditors;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using BLL._00_Custom;
 using BLL._02_Nhansu._01_Danhmucdungchung;
 using DAL;
+using System;
+using System.Windows.Forms;
 
 namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
 {
@@ -20,26 +13,17 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             InitializeComponent();
         }
 
-
         #region Khai báo biến toàn cục
 
-        DonVi _donviclass;
-        CongTy _congtyclass;
-        bool _them;
+        private DonVi _donVi;
+        private CongTy _congtyclass;
+        private bool _them;
 
+        private int _id;
 
-        int _id;
-        //string _idchuoi;
+        #endregion Khai báo biến toàn cục
 
-
-
-        #endregion
-
-
-        #region FUNCTION 
-
-
-
+        #region FUNCTION
 
         private void FC_LoadComboBox(System.Windows.Forms.ComboBox comboBox, dynamic dataSource, string displayMember, string valueMember)
         {
@@ -48,12 +32,12 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             comboBox.ValueMember = valueMember;
         }
 
-        void FC_Cleardata()
+        private void FC_Cleardata()
         {
             txtTenDonVi.Text = string.Empty;
         }
 
-        void FC_Showcontrols(bool on)
+        private void FC_Showcontrols(bool on)
         {
             btnThem.Enabled = on;
             btnSua.Enabled = on;
@@ -67,11 +51,10 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             splitContainer1.Panel1Collapsed = on;
         }
 
-        #endregion FUNCTION 
-
-
+        #endregion FUNCTION
 
         private void frmdonvi_Load(object sender, EventArgs e)
+
         {
             FC_Showcontrols(true);
             Loaddata();
@@ -79,40 +62,20 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         }
 
         #region các hàm tự viết
-        void Loaddata()
+
+        private void Loaddata()
         {
-            _donviclass = new DonVi(); // khởi tạo class
+            _donVi = new DonVi();
 
             _congtyclass = new CongTy();
-            //_dantocclass = new dantocclass();s
 
-
-            gcdanhsach.DataSource = _donviclass.GetListFull();
+            gcdanhsach.DataSource = _donVi.GetListFull();
             gvdanhsach.OptionsBehavior.Editable = false;
 
             FC_LoadComboBox(cbTenCongTy, _congtyclass.GetList(), "TENCTY", "IDCTY");
-            //FC_LoadComboBox(cbbophan, _bophanclass.getlist(), "TENBP", "IDBP");
-
-
-            //_lstnvdto = _donviclass.getlistfull(); // hứng dữ liệu từ form nv để in
-
-            //slkhopdong.Properties.DataSource = _hopdongclass.getlistfull();
-            //slkhopdong.Properties.DisplayMember = "IDHD";
-            //slkhopdong.Properties.ValueMember = "IDHD";
-
-            //public void InitializeLookupEdit(DevExpress.XtraEditors.LookUpEdit lookupEdit, object dataSource, string displayMember, string valueMember)
-            //{
-            //    // Gán dữ liệu cho LookUpEdit
-            //    lookupEdit.Properties.DataSource = dataSource;
-
-            //    // Gán thuộc tính hiển thị và giá trị
-            //    lookupEdit.Properties.DisplayMember = displayMember;
-            //    lookupEdit.Properties.ValueMember = valueMember;
-            //}
-
         }
 
-        void Savedata()
+        private void Savedata()
         {
             TB_DONVI data;
             if (_them)
@@ -121,25 +84,23 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
                 data.TENDVI = txtTenDonVi.Text;
                 data.IDCTY = int.Parse(cbTenCongTy.SelectedValue.ToString());
 
-
-
-                _donviclass.Add(data);
+                _donVi.Add(data);
             }
             else
             {
-                data = _donviclass.GetItem(_id);
+                data = _donVi.GetItem(_id);
 
                 data.TENDVI = txtTenDonVi.Text;
                 data.IDCTY = int.Parse(cbTenCongTy.SelectedValue.ToString());
 
-                _donviclass.Update(data);
+                _donVi.Update(data);
             }
-       
         }
-        #endregion
 
+        #endregion các hàm tự viết
 
         #region btn
+
         private void btnthem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             FC_Showcontrols(false);
@@ -157,12 +118,9 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
         {
             if (MessageBox.Show("Bạn có chắc chắn xóa không", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                //_donviclass.delete(_id, 1);
+                _donVi.Delete(_id, 1);
                 Loaddata();
             }
-            //var hd = _hopdongclass.getitem(slkhopdong.EditValue.ToString());
-            //hd.HESOLUONG = double.Parse(sphesoluongcu.EditValue.ToString());
-            //_hopdongclass.update(hd);
         }
 
         private void btnluu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -181,7 +139,6 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
 
         private void btnphoto_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
         }
 
         private void btndong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -189,11 +146,7 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             this.Close();
         }
 
-        #endregion
-
-
-
-
+        #endregion btn
 
         private void gvdanhsach_Click(object sender, EventArgs e)
         {
@@ -201,13 +154,16 @@ namespace QUANLYNHANVIEN._02_Nhansu._01_Danhmucdungchung
             {
                 _id = int.Parse(gvdanhsach.GetFocusedRowCellValue("IDDVI").ToString());
 
-                var item = _donviclass.GetItem(_id); // Lấy được id nhân viên gán lại vào ô
+                var item = _donVi.GetItem(_id);
 
                 txtTenDonVi.Text = item.TENDVI;
                 cbTenCongTy.SelectedValue = item.IDCTY;
- 
-
             }
+        }
+
+        private void gvdanhsach_CustomDrawRowIndicator(object sender, DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventArgs e)
+        {
+            CustomGridView.Instance.CustomDrawIndicator(e);
         }
     }
 }

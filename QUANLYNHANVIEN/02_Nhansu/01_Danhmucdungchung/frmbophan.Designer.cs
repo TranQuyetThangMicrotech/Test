@@ -46,7 +46,7 @@
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
-            this.btnin = new DevExpress.XtraBars.BarButtonItem();
+           // this.btnin = new DevExpress.XtraBars.BarButtonItem();
             this.txtTenBoPhan = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
@@ -105,6 +105,7 @@
             this.gcdanhsach.Name = "gcdanhsach";
             this.gcdanhsach.Size = new System.Drawing.Size(1211, 512);
             this.gcdanhsach.TabIndex = 0;
+            this.gcdanhsach.UseEmbeddedNavigator = true;
             this.gcdanhsach.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvdanhsach});
             // 
@@ -124,9 +125,9 @@
             this.btnLuu,
             this.btnHuy,
             this.btnDong,
-            this.btnin});
+           });
             this.barManager1.MainMenu = this.bar2;
-            this.barManager1.MaxItemId = 8;
+            this.barManager1.MaxItemId = 9;
             // 
             // bar2
             // 
@@ -235,8 +236,9 @@
             // 
             // btnin
             // 
-            this.btnin.Id = 7;
-            this.btnin.Name = "btnin";
+            //this.btnin.Id = 8;
+            //this.btnin.Name = "btnin";
+            //this.btnin.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnin_ItemClick);
             // 
             // txtTenBoPhan
             // 

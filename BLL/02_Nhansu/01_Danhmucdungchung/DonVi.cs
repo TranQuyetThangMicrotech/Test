@@ -8,7 +8,7 @@ namespace BLL._02_Nhansu._01_Danhmucdungchung
 {
     public class DonVi
     {
-        // Khởi tạo
+
         private DB_QUANLYNHANSUEntities db = new DB_QUANLYNHANSUEntities();
 
         #region Lấy danh sách
@@ -18,10 +18,7 @@ namespace BLL._02_Nhansu._01_Danhmucdungchung
             return db.TB_DONVI.Where(x => x.IDCTY == id).ToList();
         }
 
-        //public List<TB_DONVI> getlist(int loai)
-        //{
-        //    return db.TB_DONVI.Where(x => x.IDDVI === loai).ToList();
-        //}
+
 
         public List<DonViDTO> GetListFull()
         {
@@ -37,9 +34,7 @@ namespace BLL._02_Nhansu._01_Danhmucdungchung
                 dto.IDDVI = item.IDDVI;
                 dto.TENDVI = item.TENDVI;
 
-                // Khác với getlist bình thường, hứng thêm các trường mới-
-                //var cty = db.TB_CONGTY.FirstOrDefault(x => x.IDCTY == item.IDCTY);
-                //dto.TENCTY = cty.TENCTY;
+    
 
                 var cty = db.TB_CONGTY.FirstOrDefault(x => x.IDCTY == item.IDCTY);
                 dto.TENCTY = cty.TENCTY;
@@ -53,15 +48,11 @@ namespace BLL._02_Nhansu._01_Danhmucdungchung
 
         #region Lấy item
 
-        //public TB_DONVI getitem(int id)
-        //{
-        //    return db.TB_DONVI.FirstOrDefault(x => x.IDNANGLUONG == id); // lấy giá trị đầu tiên trùng với id được gửi vô
 
-        //}
 
         public TB_DONVI GetItem(int id)
         {
-            return db.TB_DONVI.FirstOrDefault(x => x.IDDVI == id); // lấy giá trị đầu tiên trùng với id được gửi vô
+            return db.TB_DONVI.FirstOrDefault(x => x.IDDVI == id); 
         }
 
         #endregion Lấy item
@@ -107,7 +98,7 @@ namespace BLL._02_Nhansu._01_Danhmucdungchung
             {
                 var _id = db.TB_DONVI.FirstOrDefault(x => x.IDDVI == id);
 
-                //db.TB_DONVI.Remove(_id);
+                db.TB_DONVI.Remove(_id);
                 db.SaveChanges();
             }
             catch (Exception ex)

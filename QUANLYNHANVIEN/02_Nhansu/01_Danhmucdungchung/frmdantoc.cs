@@ -1,19 +1,8 @@
-﻿
-using DevExpress.XtraEditors;
+﻿using BLL._00_Custom;
+using BLL._02_Nhansu._01_Danhmucdungchung;
+using DAL;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
-
-using DAL; // references
-using BLL._02_Nhansu._01_Danhmucdungchung; // references
-
 
 namespace QUANLYNHANVIEN._02_Nhansu.Danhmucdungchung
 {
@@ -25,20 +14,21 @@ namespace QUANLYNHANVIEN._02_Nhansu.Danhmucdungchung
         }
 
         #region Khai báo biến toàn cục
-        // Khai báo tạo 1 biến đại diện cho class
-        DanToc _dantocclass;
-        bool _them;
-        int _id;
-        #endregion
 
-        // Các hàm
-        #region FUNCTION 
-        void FC_Cleardata()
+        private DanToc _danToc;
+        private bool _them;
+        private int _id;
+
+        #endregion Khai báo biến toàn cục
+
+        #region FUNCTION
+
+        private void FC_Cleardata()
         {
             txtTenDanToc.Text = string.Empty;
         }
 
-        void FC_Showcontrols(bool on)
+        private void FC_Showcontrols(bool on)
         {
             btnThem.Enabled = on;
             btnSua.Enabled = on;
@@ -48,27 +38,26 @@ namespace QUANLYNHANVIEN._02_Nhansu.Danhmucdungchung
             btnHuy.Enabled = !on;
             btnLuu.Enabled = !on;
 
-            splitContainer1.Panel1Collapsed = on; //Khi load form "true" sẽ thu gọn panel1
+            splitContainer1.Panel1Collapsed = on;
         }
 
-        #endregion FUNCTION 
-
+        #endregion FUNCTION
 
         private void frmdantoc_Load(object sender, EventArgs e)
+
         {
-          
             FC_Showcontrols(true);
             Loaddata();
             _them = false;
         }
 
-       
-
         #region BTN
+
         private void btnthem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             FC_Showcontrols(false);
             FC_Cleardata();
+            gcdanhsach.Enabled = false;
             _them = true;
         }
 
@@ -82,7 +71,7 @@ namespace QUANLYNHANVIEN._02_Nhansu.Danhmucdungchung
         {
             if (MessageBox.Show("Bạn có chắc chắn xóa không", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                _dantocclass.Delete(_id);
+                _danToc.Delete(_id);
                 Loaddata();
             }
         }
@@ -92,67 +81,62 @@ namespace QUANLYNHANVIEN._02_Nhansu.Danhmucdungchung
             FC_Showcontrols(true);
             Savedata();
             Loaddata();
+            gcdanhsach.Enabled = true;
             _them = false;
-            
         }
 
         private void btnhuy_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             FC_Showcontrols(true);
+            gcdanhsach.Enabled = true;
             _them = false;
         }
-
-
 
         private void btndong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             this.Close();
         }
 
+        #endregion BTN
 
-        #endregion
-
-
-
-        void Loaddata()
+        private void Loaddata()
         {
-            _dantocclass = new DanToc(); // khởi tạo class
-            gcdanhsach.DataSource = _dantocclass.GetList(); // gắn danh sách cho gridcontrol
-            gvdanhsach.OptionsBehavior.Editable = false; // Không cho phép sửa trên gridview
-
+            _danToc = new DanToc();
+            gcdanhsach.DataSource = _danToc.GetList();
+            gvdanhsach.OptionsBehavior.Editable = false;
         }
 
-        void Savedata()
+        private void Savedata()
         {
-
             TB_DANTOC data;
 
             if (_them)
             {
                 data = new TB_DANTOC();
                 data.TENDT = txtTenDanToc.Text;
-                _dantocclass.Add(data);
+                _danToc.Add(data);
             }
             else
             {
-                data = _dantocclass.GetItem(_id);
+                data = _danToc.GetItem(_id);
                 data.TENDT = txtTenDanToc.Text;
-                _dantocclass.Update(data);
+                _danToc.Update(data);
             }
         }
 
-
-
-        // thao tác click vào gridview (lấy được id và gán giá trị cho ô text)
         private void gvdanhsach_Click(object sender, EventArgs e)
         {
             if (gvdanhsach.RowCount > 0)
             {
                 _id = int.Parse(gvdanhsach.GetFocusedRowCellValue("IDDT").ToString());
-                var _item = _dantocclass.GetItem(_id);
-                txtTenDanToc.Text = _item.TENDT;
+                var item = _danToc.GetItem(_id);
+                txtTenDanToc.Text = item.TENDT;
             }
         }
 
+        private void gvdanhsach_CustomDrawRowIndicator(object sender, DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventArgs e)
+        {
+            CustomGridView.Instance.CustomDrawIndicator(e);
+        }
     }
 }
